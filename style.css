@@ -16,13 +16,19 @@ body {
   display: flex;
   justify-content: space-between;
   background: #3c3a39;
-  padding: 20px;
+  padding: 10px;
   font-family: "Roboto", sans-serif;
 }
 
 .navigation a {
   color: #fff;
   text-decoration: none;
+}
+
+#logo {
+  width: 50px;
+  height: auto;
+  left: 12px;
 }
 
 .Header {
