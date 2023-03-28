@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  position: absolute;
+  width: 375px;
+  height: 590px;
+  left: 0;
+  background: #1c1a19;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  background: #3c3a39;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+.navigation a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#logo {
+  width: 50px;
+  height: auto;
+  left: 12px;
+}
+
+.headline-section {
+  height: 519px;
+  background-image: url("images/Group.png");
+  background-position-x: right;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  align-items: flex-start;
+}
+
+.icon {
+  width: 90px;
+  height: 28px;
+  padding: 5% 0% 0% 0%;
+  font-weight: 600;
+  color: #ffff;
+}
+
+h1 {
+  margin: 150px 10px 10px 20px;
+}
+
+h2 {
+  margin: 5px 10px 10px 20px;
+}
+
+p {
+  margin: 2px 30px 30px 20px;
+}
+
+.Greetings {
+  color: #ff6b00;
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+}
+
+.Description1 {
+  color: #fff5e1;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.Description2 {
+  color: #ffff;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: none;
+  list-style: none;
+  width: 10.636rem;
+  gap: 8px;
+  order: 3;
+  align-items: center;
+  margin: 0% 0% 0% 7%;
+}
