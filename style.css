@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
 * {
   margin: 0;
   box-sizing: border-box;
@@ -29,15 +31,6 @@ body {
   width: 50px;
   height: auto;
   left: 12px;
-}
-
-.headline-section {
-  height: 519px;
-  background-image: url("images/Group.png");
-  background-position-x: right;
-  background-position-y: bottom;
-  background-repeat: no-repeat;
-  align-items: flex-start;
 }
 
 .icon {
@@ -101,4 +94,136 @@ p {
   order: 3;
   align-items: center;
   margin: 0% 0% 0% 7%;
+}
+
+.headline-tagline {
+  height: 519px;
+  background-image: url("images/Group.png");
+  background-position-x: right;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  align-items: flex-start;
+  bottom: -11.63%;
+  left: 65.74%;
+  right: -30.09%;
+  top: 29.3%;
+}
+
+/*.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto auto auto auto auto;
+  align-content : center;
+  gap: 10px;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+}*/
+
+#MyRecentWorks {
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  margin-top: 120px;
+  text-align: center;
+}
+
+#hr-line {
+  width: 327px;
+  height: 0px;
+  border: 1px solid #212121;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.main-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: white;
+  padding: 10px;
+  gap: 24px;
+}
+
+.top-div {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+#yoga-image {
+  width: 327px;
+  height: 237px;
+  margin-top: 56px;
+  margin-left: 15px;
+}
+
+.butm-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.butm-div h2 {
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.butm-div p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.list1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 18px;
+  gap: 10px;
+}
+
+.butm-div .list1 li {
+  list-style: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  border: 1px solid #8993A4;
+  background: #FFFFFF;
+  padding: 10px 12px;
+}
+
+.butm-div a {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  padding: 12px;
+  background: #FF6B00;
+  width: 124px;
+  height: 48px;
+  color: #FFFFFF;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-left: 18px;
+}
+
+.project2 {
+  display: flex;
+
+  background-image: url(images/Img\ Placeholder\ \(1\).png);
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
 }
