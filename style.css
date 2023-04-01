@@ -94,7 +94,7 @@ p {
 
 .headline-tagline {
   height: 519px;
-  background-image: url("images/Group.png");
+  background-image: url("./images/Group.png");
   background-position-x: right;
   background-position-y: bottom;
   background-repeat: no-repeat;
