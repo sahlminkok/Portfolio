@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -9,7 +10,6 @@
 body {
   position: absolute;
   width: 375px;
-  
   left: 0;
   background: #1c1a19;
 }
@@ -110,7 +110,7 @@ p {
 }
 
 #MyRecentWorks {
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -121,7 +121,7 @@ p {
 
 #hr-line {
   width: 327px;
-  height: 0px;
+  height: 0;
   border: 1px solid #212121;
   align-items: center;
   margin-left: 15px;
@@ -155,8 +155,16 @@ p {
   align-items: flex-start;
 }
 
+h2 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+}
+
 .butm-div h2 {
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -164,7 +172,7 @@ p {
 }
 
 .butm-div p {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -179,29 +187,49 @@ p {
   gap: 10px;
 }
 
-.butm-div .list1 li {
+.list2 li {
   list-style: none;
+  background: rgba(255, 255, 255, 0.24);
+  padding: 10px 12px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  border: 1px solid #8993A4;
-  background: #FFFFFF;
+}
+
+.list3 li {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  list-style: none;
+}
+
+.butm-div .list1 li {
+  list-style: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  border: 1px solid #8993a4;
+  background: #fff;
   padding: 10px 12px;
 }
 
 .butm-div a {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
   padding: 12px;
-  background: #FF6B00;
+  background: #ff6b00;
   width: 124px;
   height: 48px;
-  color: #FFFFFF;
+  color: #fff;
   letter-spacing: 0.03em;
   text-decoration: none;
   margin-top: 10px;
@@ -226,14 +254,15 @@ p {
   justify-content: flex-end;
   height: 386px;
 }
+
 .project2 > * {
   margin-left: 30px;
-  color: #FFFFFF;
+  color: #fff;
   padding: 5px;
 }
 
 .project2 h3 {
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -241,7 +270,7 @@ p {
 }
 
 .project2 p {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -252,31 +281,19 @@ p {
   margin-bottom: 120px;
 }
 
-.list2{
+.list2 {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 12px;
   margin-top: -20px;
-
-}
-
-.list2 li {
-  list-style: none;
-  background: rgba(255, 255, 255, 0.24);
-  padding: 10px 12px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
 }
 
 .project2 a {
   width: 327px;
   height: 48px;
-  background: #FF6B00;
-  font-family: 'Inter';
+  background: #ff6b00;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -296,27 +313,27 @@ p {
 }
 
 .about-me h1 {
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
   line-height: 88px;
   letter-spacing: 0.37px;
-  color: #FF6B00;
+  color: #ff6b00;
 }
 
 .about-me p {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #F4F5F7;
+  color: #f4f5f7;
 }
 
 .about-me a {
   padding: 12px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -325,8 +342,8 @@ p {
   white-space: nowrap;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
-  background: #FF6B00;
+  color: #fff;
+  background: #ff6b00;
   width: 156px;
   height: 48px;
   margin-left: 24px;
@@ -347,25 +364,19 @@ p {
 }
 
 .list3 {
-  color: #FFFFFF;
+  color: #fff;
   margin-top: 116px;
   margin-bottom: 87.54px;
 }
 
-.language, .framework, .skills {
+.language,
+.framework,
+.skills {
   display: flex;
   margin-top: 24px;
   align-items: center;
   justify-content: center;
-  gap: 0px;
-}
-
-h2 {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
+  gap: 0;
 }
 
 .list3 ul {
@@ -375,25 +386,16 @@ h2 {
   text-align: center;
 }
 
-.list3 li {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 43px;
-  list-style: none;
-}
-
 .button:hover {
-  background: #FFF5E1;
-  border: 1px solid #F55800;
-  color: #F55800;
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
 }
 
 .button:focus {
-  background: #E05304;
+  background: #e05304;
 }
 
 .button:disabled {
-  background: #F4F1F0;
+  background: #f4f1f0;
 }
