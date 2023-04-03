@@ -194,6 +194,8 @@ h2 {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
+  float: left;
+  margin: 10px
 }
 
 .list3 li {
@@ -282,11 +284,12 @@ h2 {
 }
 
 .list2 {
-  display: flex;
+  /*display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 12px;
+  gap: 12px;*/
   margin-top: -20px;
+  margin-left: 41px;
 }
 
 .project2 a {
