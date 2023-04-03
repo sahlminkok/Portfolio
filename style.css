@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
 
 * {
   margin: 0;
@@ -106,7 +106,7 @@ p {
 }
 
 #MyRecentWorks {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -152,7 +152,7 @@ p {
 }
 
 h2 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -161,7 +161,7 @@ h2 {
 }
 
 .butm-div h2 {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -169,7 +169,7 @@ h2 {
 }
 
 .butm-div p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -177,7 +177,7 @@ h2 {
 }
 
 .list1 {
- /* display: flex;
+  /* display: flex;
   flex-direction: row;
   align-items: center;
   margin-left: 18px;
@@ -189,7 +189,7 @@ h2 {
   list-style: none;
   background: rgba(255, 255, 255, 0.24);
   padding: 10px 12px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -197,7 +197,7 @@ h2 {
 }
 
 .list3 li {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -207,7 +207,7 @@ h2 {
 
 .butm-div .list1 li {
   list-style: none;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -216,11 +216,11 @@ h2 {
   background: #fff;
   padding: 10px 12px;
   float: left;
-    margin: 5px;
+  margin: 5px;
 }
 
 .butm-div a {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -262,7 +262,7 @@ h2 {
 }
 
 .project2 h3 {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -270,7 +270,7 @@ h2 {
 }
 
 .project2 p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -293,7 +293,7 @@ h2 {
   width: 327px;
   height: 48px;
   background: #ff6b00;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -313,7 +313,7 @@ h2 {
 }
 
 .about-me h1 {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
@@ -323,7 +323,7 @@ h2 {
 }
 
 .about-me p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -333,7 +333,7 @@ h2 {
 
 .about-me a {
   padding: 12px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
