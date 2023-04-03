@@ -177,11 +177,12 @@ h2 {
 }
 
 .list1 {
-  display: flex;
+ /* display: flex;
   flex-direction: row;
   align-items: center;
   margin-left: 18px;
-  gap: 10px;
+  gap: 10px;*/
+  margin-left: 12px;
 }
 
 .list2 li {
@@ -214,6 +215,8 @@ h2 {
   border: 1px solid #8993a4;
   background: #fff;
   padding: 10px 12px;
+  float: left;
+    margin: 5px;
 }
 
 .butm-div a {
