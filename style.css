@@ -454,7 +454,7 @@ h2 {
 .contact-form button {
   width: 131px;
   height: 48px;
-  background: #FF6B00;
+  background: #ff6b00;
   border: 0;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -472,18 +472,17 @@ h2 {
   flex-direction: column;
   background-color: #fff;
 }
-.footer> *{
-  margin-top: 4%;
-}
+
 .footer-icons {
   display: flex;
-  gap: 5%;
+  gap: 23px;
   list-style: none;
   justify-content: center;
+  margin-top: 24px;
 }
 
 .longindicator {
   align-self: center;
-  margin-top: 10%;
-  margin-bottom: 5%;
+  margin-top: 47px;
+  margin-bottom: 11px;
 }

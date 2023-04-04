@@ -227,8 +227,8 @@
         I'm always interested in hearing about new projects, so if you'd like to
         chat please get in touch.
       </p>
-      <form action="/my_portfolio_page" method="post">
-        <input type="text" name="user_name" id="name" placeholder="Full Name" />
+      <form action="https://formspree.io/f/mayzpkdz" method="post">
+        <input type="text" name="user_name" id="name" maxlength="30" placeholder="Full Name" required />
         <input
           type="email"
           name="user_email"
@@ -240,28 +240,30 @@
           name="user_message"
           id="msg"
           placeholder="Write me something..."
+          maxlength="500"
+          required
         ></textarea>
-        <button type="submit">Get in touch</button>
+        <button type="submit" class="button">Get in touch</button>
       </form>
     </section>
    
     <footer class="footer">
-       <img src="images/seperationline.svg" alt="line">
-          <ul class="footer-icons">
+      <img src="images/seperationline.svg" alt="line">
+      <ul class="footer-icons">
         <li class="Github">
-          <a href="#"
-            ><img src="images/github.svg" alt="GitHub icon"
-          /></a>
+          <a href="#">
+            <img src="images/github.svg" alt="GitHub icon"/> 
+          </a>
         </li>
         <li class="linkedin">
-          <a href="#"
-            ><img src="images/linkedin.svg" alt="Linkedin icon"
-          /></a>
+          <a href="#">
+            <img src="images/linkedin.svg" alt="Linkedin icon"/>
+          </a>
         </li>
         <li class="AngeList">
-          <a href=""
-            ><img src="images/angelist.svg" alt="Angel icon"
-          /></a>
+          <a href="">
+            <img src="images/angelist.svg" alt="Angel icon"/>
+          </a>
         </li>
         <li class="Twitter">
           <a href="#">
@@ -274,12 +276,7 @@
           </a>
         </li>
       </ul>
-
-      <img
-        class="longindicator"
-        src="images/Shape.svg"
-        alt="Indicator"
-      />
+      <img class="longindicator" src="images/Shape.svg" alt="Indicator"/>
     </footer>
   </body>
 </html>
