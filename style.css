@@ -467,9 +467,20 @@ h2 {
 
 /* footer section */
 .footer{
+  display: flex;
+  flex-direction: column;
   background-color: #fff;
 }
 
-.Github img {
-  color: #172b4ds;
+.footer-icons {
+  display: flex;
+  gap: 5%;
+  list-style: none;
+  justify-content: center;
+}
+
+.longindicator {
+  align-self: center;
+  margin-top: 10%;
+  margin-bottom: 5%;
 }
