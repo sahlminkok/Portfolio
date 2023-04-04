@@ -465,13 +465,16 @@ h2 {
   color: #fff;
 }
 
+
 /* footer section */
 .footer{
   display: flex;
   flex-direction: column;
   background-color: #fff;
 }
-
+.footer> *{
+  margin-top: 4%;
+}
 .footer-icons {
   display: flex;
   gap: 5%;
