@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
 
 * {
   margin: 0;
@@ -106,7 +106,7 @@ p {
 }
 
 #MyRecentWorks {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -152,7 +152,7 @@ p {
 }
 
 h2 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -161,7 +161,7 @@ h2 {
 }
 
 .butm-div h2 {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -169,7 +169,7 @@ h2 {
 }
 
 .butm-div p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -188,7 +188,7 @@ h2 {
   list-style: none;
   background: rgba(255, 255, 255, 0.24);
   padding: 10px 12px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -196,7 +196,7 @@ h2 {
 }
 
 .list3 li {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -206,7 +206,7 @@ h2 {
 
 .butm-div .list1 li {
   list-style: none;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -217,7 +217,7 @@ h2 {
 }
 
 .butm-div a {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -259,7 +259,7 @@ h2 {
 }
 
 .project2 h3 {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -267,7 +267,7 @@ h2 {
 }
 
 .project2 p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -290,7 +290,7 @@ h2 {
   width: 327px;
   height: 48px;
   background: #ff6b00;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -310,7 +310,7 @@ h2 {
 }
 
 .about-me h1 {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
@@ -320,7 +320,7 @@ h2 {
 }
 
 .about-me p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -330,7 +330,7 @@ h2 {
 
 .about-me a {
   padding: 12px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -395,4 +395,93 @@ h2 {
 
 .button:disabled {
   background: #f4f1f0;
+}
+
+.contact-form {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+  padding-top: 69px;
+  padding-bottom: 69px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  align-items: center;
+  list-style: none;
+  padding-bottom: 79px;
+}
+
+#name,
+#email,
+#msg {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  border-bottom: 1px solid #dbd8d7;
+  padding: 14px;
+  padding-left: 16px;
+  width: 327px;
+  border: 0;
+}
+
+#name,
+#email {
+  border-bottom: 1px solid #dbd8d7;
+}
+
+#msg {
+  background: #fbf8f7;
+  height: 114px;
+  padding-top: 10px;
+  font-style: italic;
+}
+
+.contact-form button {
+  width: 131px;
+  height: 48px;
+  background: #ff6b00;
+  border: 0;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+
+/* footer section */
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 23px;
+  list-style: none;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.longindicator {
+  align-self: center;
+  margin-top: 47px;
+  margin-bottom: 11px;
 }
