@@ -465,9 +465,8 @@ h2 {
   color: #fff;
 }
 
-
 /* footer section */
-.footer{
+.footer {
   display: flex;
   flex-direction: column;
   background-color: #fff;
