@@ -177,12 +177,11 @@ h2 {
 }
 
 .list1 {
-  /* display: flex;
+  display: flex;
   flex-direction: row;
   align-items: center;
   margin-left: 18px;
-  gap: 10px;*/
-  margin-left: 12px;
+  gap: 10px;
 }
 
 .list2 li {
@@ -194,8 +193,6 @@ h2 {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  float: left;
-  margin: 10px
 }
 
 .list3 li {
@@ -217,8 +214,6 @@ h2 {
   border: 1px solid #8993a4;
   background: #fff;
   padding: 10px 12px;
-  float: left;
-  margin: 5px;
 }
 
 .butm-div a {
@@ -284,12 +279,11 @@ h2 {
 }
 
 .list2 {
-  /*display: flex;
+  display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 12px;*/
+  gap: 12px;
   margin-top: -20px;
-  margin-left: 41px;
 }
 
 .project2 a {
@@ -401,4 +395,72 @@ h2 {
 
 .button:disabled {
   background: #f4f1f0;
+}
+
+.contact-form {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+  padding-top: 69px;
+  padding-bottom: 69px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  align-items: center;
+  list-style: none;
+  padding-bottom: 79px;
+}
+
+#name,
+#email,
+#msg {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  border-bottom: 1px solid #dbd8d7;
+  padding: 14px;
+  padding-left: 16px;
+  width: 327px;
+  border: 0;
+}
+
+#name,
+#email {
+  border-bottom: 1px solid #dbd8d7;
+}
+
+#msg {
+  background: #fbf8f7;
+  height: 114px;
+  padding-top: 10px;
+  font-style: italic;
+}
+
+.contact-form button {
+  width: 131px;
+  height: 48px;
+  background: #FF6B00;
+  border: 0;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #fff;
 }
