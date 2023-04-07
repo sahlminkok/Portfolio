@@ -19,7 +19,7 @@ body {
   align-items: center;
 }
 
-.menu{
+.menu {
   display: none;
 }
 
@@ -88,7 +88,7 @@ body {
   width: 49.625rem;
 }
 
-.butm-div{
+.butm-div {
   flex-direction: row;
 }
 
@@ -109,8 +109,11 @@ body {
 .project-list {
   height: 300vh;
   display: grid;
-  grid-template-columns: repeat(6, 25%);
-  width: 30%;
+  grid-template-columns: repeat(3, 30%);
+}
+
+.project2 {
+  display: flex;
 }
 
 .h3-hide-desktop {
@@ -120,14 +123,14 @@ body {
 #data-dashboard {
   background-image: url("images/Img\ Placeholder\ \(2\).svg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
 }
 
 #website-portfolio {
   background-image: url("images/Img\ Placeholder\ \(3\).svg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
 }
 
@@ -138,11 +141,11 @@ body {
 
 .about-me {
   background-image: url(images/illustration-about\ me.svg);
-    background-repeat: no-repeat;
-    background-position-y: 6em;
-    background-position-x: right;
-    background-size: inherit;
-    margin-left: 8.813em;
+  background-repeat: no-repeat;
+  background-position-y: 6em;
+  background-position-x: right;
+  background-size: inherit;
+  margin-left: 8.813em;
 }
 
 .illustration-about-me {
