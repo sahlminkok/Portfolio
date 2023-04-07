@@ -9,16 +9,20 @@
 
 body {
   position: absolute;
-  width: 375px;
+  width: auto;
   left: 0;
   background: #1c1a19;
+}
+
+.desktop-navbar {
+  display: none;
 }
 
 .navigation {
   display: flex;
   justify-content: space-between;
   background: #3c3a39;
-  padding: 10px;
+  padding: 0.625em;
   font-family: "Roboto", sans-serif;
 }
 
@@ -28,14 +32,14 @@ body {
 }
 
 #logo {
-  width: 50px;
+  width: 3.125em;
   height: auto;
-  left: 12px;
+  left: 0.75em;
 }
 
 .icon {
-  width: 90px;
-  height: 28px;
+  width: 5.625em;
+  height: 1.75em;
   padding: 5% 0% 0% 0%;
   font-weight: 600;
   color: #ffff;
@@ -54,9 +58,9 @@ p {
   font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 56px;
-  line-height: 64px;
-  letter-spacing: 0.37px;
+  font-size: 3.5rem;
+  line-height: 4rem;
+  letter-spacing: 0.023em;
 }
 
 .Description1 {
@@ -64,8 +68,8 @@ p {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
-  line-height: 32px;
+  font-size: 1.5rem;
+  line-height: 2em;
   display: flex;
   align-items: center;
 }
@@ -75,8 +79,8 @@ p {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1em;
+  line-height: 1.5em;
 }
 
 .icons {
@@ -86,14 +90,13 @@ p {
   flex: none;
   list-style: none;
   width: 10.636rem;
-  gap: 8px;
-  order: 3;
+  gap: 0.5em;
   align-items: center;
   margin: 0% 0% 0% 7%;
 }
 
 .headline-tagline {
-  height: 519px;
+  height: 32.438em;
   background-image: url("./images/Group.png");
   background-position-x: right;
   background-position-y: bottom;
@@ -128,8 +131,14 @@ p {
   flex-direction: column;
   align-items: flex-start;
   background-color: white;
-  padding: 10px;
+  padding: 0.625em;
   gap: 24px;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75em;
 }
 
 .top-div {
@@ -157,7 +166,7 @@ h2 {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  margin: 5px 10px 10px 20px;
+  margin: 5px 0.625em 0.625em 20px;
 }
 
 .butm-div h2 {
@@ -181,13 +190,13 @@ h2 {
   flex-direction: row;
   align-items: center;
   margin-left: 18px;
-  gap: 10px;
+  gap: 0.625em;
 }
 
 .list2 li {
   list-style: none;
   background: rgba(255, 255, 255, 0.24);
-  padding: 10px 12px;
+  padding: 0.625em 0.75em;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -213,7 +222,7 @@ h2 {
   line-height: 20px;
   border: 1px solid #8993a4;
   background: #fff;
-  padding: 10px 12px;
+  padding: 0.625em 0.75em;
 }
 
 .butm-div a {
@@ -222,14 +231,14 @@ h2 {
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  padding: 12px;
+  padding: 0.75em;
   background: #ff6b00;
   width: 124px;
   height: 48px;
   color: #fff;
   letter-spacing: 0.03em;
   text-decoration: none;
-  margin-top: 10px;
+  margin-top: 0.625em;
   margin-left: 18px;
   white-space: nowrap;
 }
@@ -237,6 +246,7 @@ h2 {
 .project_list {
   background-color: white;
   display: grid;
+  grid-template-columns: 90%;
   grid-template-rows: repeat(6, auto);
   border: 0;
   gap: 24px;
@@ -256,6 +266,10 @@ h2 {
   margin-left: 30px;
   color: #fff;
   padding: 5px;
+}
+
+.h3-show-desktop{
+  display: none;
 }
 
 .project2 h3 {
@@ -282,7 +296,7 @@ h2 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 12px;
+  gap: 0.75em;
   margin-top: -20px;
 }
 
@@ -295,7 +309,7 @@ h2 {
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  padding: 12px;
+  padding: 0.75em;
   text-decoration: none;
   white-space: nowrap;
   letter-spacing: 0.03em;
@@ -329,7 +343,7 @@ h2 {
 }
 
 .about-me a {
-  padding: 12px;
+  padding: 0.75em;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -344,6 +358,10 @@ h2 {
   width: 156px;
   height: 48px;
   margin-left: 24px;
+}
+
+#desk-hr-line {
+  display: none;
 }
 
 .placeholder {
@@ -447,7 +465,7 @@ h2 {
 #msg {
   background: #fbf8f7;
   height: 114px;
-  padding-top: 10px;
+  padding-top: 0.625em;
   font-style: italic;
 }
 
@@ -484,4 +502,8 @@ h2 {
   align-self: center;
   margin-top: 47px;
   margin-bottom: 11px;
+}
+
+@media screen and (min-device-width: 48em) {
+  
 }

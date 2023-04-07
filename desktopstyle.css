@@ -1,0 +1,213 @@
+body {
+  background-image: url(./images/Illustration-header.svg);
+  background-size: 40%;
+  background-position: 100% 1%;
+  background-repeat: no-repeat;
+}
+
+.desktop-navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #3c3a39;
+  padding: 0.625em;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.9375em;
+  line-height: 1.25em;
+  gap: 2em;
+  align-items: center;
+}
+
+.menu{
+  display: none;
+}
+
+#logo {
+  margin-left: 9.625em;
+  width: 5.25em;
+}
+
+.mail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 151px;
+}
+
+.greetings {
+  font-size: 4.5rem;
+  line-height: 5.125rem;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  background: #3c3a39;
+  padding: 0.625em;
+  font-family: "Roboto", sans-serif;
+  align-items: center;
+}
+
+/* headline section */
+.headline-tagline {
+  display: flex;
+  flex-direction: row;
+  height: 600px;
+  align-items: center;
+  gap: 5.438em;
+  background-image: none;
+}
+
+.icons {
+  flex-direction: column;
+  margin-top: 5.4em;
+  order: -1;
+  margin-left: 2.25em;
+  width: auto;
+}
+
+.top-div {
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+  width: 100%;
+  gap: 0;
+}
+
+.description {
+  max-width: 77vh;
+}
+
+.description p {
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+
+#hr-line {
+  width: 49.625rem;
+}
+
+.butm-div{
+  flex-direction: row;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  margin-top: 56px;
+  width: 28em;
+  margin-right: 5%;
+}
+
+#yoga-image {
+  width: 42.75em;
+  height: 28em;
+  margin-left: 10%;
+}
+
+.project-list {
+  height: 300vh;
+  display: grid;
+  grid-template-columns: repeat(6, 25%);
+  width: 30%;
+}
+
+.h3-hide-desktop {
+  display: none;
+}
+
+#data-dashboard {
+  background-image: url("images/Img\ Placeholder\ \(2\).svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#website-portfolio {
+  background-image: url("images/Img\ Placeholder\ \(3\).svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.placeholder {
+  background-image: none;
+  display: none;
+}
+
+.about-me {
+  background-image: url(images/illustration-about\ me.svg);
+    background-repeat: no-repeat;
+    background-position-y: 6em;
+    background-position-x: right;
+    background-size: inherit;
+    margin-left: 8.813em;
+}
+
+.illustration-about-me {
+  display: flex;
+  flex-direction: column;
+  gap: 0.74em;
+  width: 35.375em;
+}
+
+.list3 {
+  display: flex;
+  flex-direction: row;
+  gap: 11em;
+}
+
+.list3 ul {
+  align-items: flex-start;
+}
+
+.lang-list,
+.frame-list,
+.skill-list {
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+}
+
+#desk-hr-line {
+  display: block;
+  margin-top: 8.688em;
+  width: 1156px;
+}
+
+.contact-form {
+  flex-direction: row;
+  padding-top: 130px;
+  padding-left: 10%;
+  justify-content: flex-start;
+}
+
+.contact-form p {
+  max-width: 29%;
+  text-align: left;
+  padding-top: 0;
+}
+
+#name,
+#email,
+#msg {
+  width: 684px;
+}
+
+.contact-form button {
+  align-self: flex-start;
+}
+
+.seperation-line {
+  padding-top: 4%;
+}
+
+.footer-icons {
+  padding-top: 1%;
+  padding-bottom: 2%;
+}
+
+.longindicator {
+  display: none;
+}

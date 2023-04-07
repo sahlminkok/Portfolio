@@ -20,31 +20,43 @@
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" type="text/css"
+    media="screen and (min-width: 48em)"
+    href="desktopstyle.css" />
   </head>
   <body>
     <header class="navigation">
       <a href="#">
         <img src="images/cabsal.png" id="logo" alt="my logo" />
       </a>
-      <nav>
+      <nav class="desktop-navbar">
+        <a href="#">Portfolio</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#" class="mail">
+          <img src="images/Icon - Mail.svg" alt="mail">
+        </a>
+      </nav>
+      <nav class="menu">
         <a href="#">
           <img src="images/Icon - Menu.png" id="menu" alt="Menu" />
         </a>
       </nav>
     </header>
     <section class="headline-tagline">
-      <h1 class="Greetings">
-        Hey There. <br />
-        I'm Sahal
-      </h1>
-      <h2 class="Description1">I'am a Software Developer</h2>
+      <div class="description">
+        <h1 class="Greetings">
+          Hey There. <br />
+          I'm Sahal
+        </h1>
+        <h2 class="Description1">I'am a Software Developer</h2>
 
-      <p class="Description2">
-        I can help you build a product, feature or website look through some of
-        my work and experience! if you like what you see and have a project you
-        need coded, don't hesitate to contact me.
-      </p>
-
+        <p class="Description2">
+          I can help you build a product, feature or website look through some of
+          my work and experience! if you like what you see and have a project you
+          need coded, don't hesitate to contact me.
+        </p>
+      </div>
       <ul class="icons">
         <li class="Github">
           <a href="#"
@@ -66,6 +78,11 @@
             ><img src="images/Icon - Twitter.png" alt="Twitter icon"
           /></a>
         </li>
+        <li class="medium">
+          <a href=""
+            ><img src="images/medium.svg" alt="Medium icon"
+          /></a>
+        </li>
       </ul>
     </section>
     <section class="grid-container">
@@ -73,26 +90,28 @@
         <div class="top-div">
           <h2 id="MyRecentWorks">My Recent Works</h2>
           <img src="images/Vector.png" alt="horizontal-line" id="hr-line" />
+        </div>
+        <div class="butm-div">
           <img
             src="images/Img Placeholder.png"
             alt="yoga image"
             id="yoga-image"
           />
-        </div>
-        <div class="butm-div">
-          <h2>Multi-Post Stories</h2>
-          <p>
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. has been the industry's standard dummy text ever
-            since the 1500s, when an unknown printer took a standard dummy text.
-          </p>
-          <ul class="list1">
-            <li>CSS</li>
-            <li>HTML</li>
-            <li>Bootstrap</li>
-            <li>Ruby</li>
-          </ul>
-          <a href="#" class="button">See project</a>
+          <div class="project">
+            <h2>Multi-Post Stories</h2>
+            <p>
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has been the industry's standard dummy text ever
+              since the 1500s, when an unknown printer took a standard dummy text.
+            </p>
+            <ul class="list1">
+              <li>CSS</li>
+              <li>HTML</li>
+              <li>Bootstrap</li>
+              <li>Ruby</li>
+            </ul>
+            <a href="#" class="button">See project</a>
+          </div>
         </div>
       </div>
     </section>
@@ -110,8 +129,23 @@
         </ul>
         <a href="#" class="button">See project</a>
       </div>
-      <div class="project2">
-        <h3>Profesional Art <br />Printing Data</h3>
+      <div class="project2" id="data-dashboard">
+        <h3 class="h3-hide-desktop">Profesional Art <br />Printing Data</h3>
+        <h3 class="h3-show-desktop">Data Dashboard <br> Healthcare</h3>
+        <p>
+          A daily selection of privately personalized reads; no accounts or
+          sign-ups required. Has been the industry's standard.
+        </p>
+        <ul class="list2">
+          <li>HTML</li>
+          <li>Bootstrap</li>
+          <li>Ruby</li>
+        </ul>
+        <a href="#" class="button">See project</a>
+      </div>
+      <div class="project2" id="website-portfolio">
+        <h3 class="h3-hide-desktop">Profesional Art <br />Printing Data</h3>
+        <h3 class="h3-show-desktop">Website Porfolio</h3>
         <p>
           A daily selection of privately personalized reads; no accounts or
           sign-ups required. Has been the industry's standard.
@@ -136,8 +170,9 @@
         </ul>
         <a href="#" class="button">See project</a>
       </div>
-      <div class="project2">
-        <h3>Profesional Art <br />Printing Data</h3>
+      <div class="project2" id="data-dashboard">
+        <h3 class="h3-hide-desktop">Profesional Art <br />Printing Data</h3>
+        <h3 class="h3-show-desktop">Data Dashboard<br> Healthcare</h3>
         <p>
           A daily selection of privately personalized reads; no accounts or
           sign-ups required. Has been the industry's standard.
@@ -149,21 +184,9 @@
         </ul>
         <a href="#" class="button">See project</a>
       </div>
-      <div class="project2">
-        <h3>Profesional Art <br />Printing Data</h3>
-        <p>
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required. Has been the industry's standard.
-        </p>
-        <ul class="list2">
-          <li>HTML</li>
-          <li>Bootstrap</li>
-          <li>Ruby</li>
-        </ul>
-        <a href="#" class="button">See project</a>
-      </div>
-      <div class="project2 bottom">
-        <h3>Profesional Art <br />Printing Data</h3>
+      <div class="project2 bottom" id="website-portfolio">
+        <h3 class="h3-hide-desktop">Profesional Art <br />Printing Data</h3>
+        <h3 class="h3-show-desktop">Website Portfolio</h3>
         <p>
           A daily selection of privately personalized reads; no accounts or
           sign-ups required. Has been the industry's standard.
@@ -177,48 +200,57 @@
       </div>
     </section>
     <section class="about-me">
-      <h1>About me</h1>
-      <p>
-        Hello I’m a software developer! I can help you build a product , feature
-        or website Look through some of my work and experience! If you like what
-        you see and have a project you need coded, don’t hesitate to contact me.
-      </p>
-      <a href="#" class="button">Get my resume</a>
+      <div class="illustration-about-me">
+        <h1>About me</h1>
+        <p>
+          Hello I’m a software developer! I can help you build a product , feature
+          or website Look through some of my work and experience! If you like what
+          you see and have a project you need coded, don’t hesitate to contact me.
+        </p>
+        <a href="#" class="button">Get my resume</a>
+      </div>
+      <img src="images/Vector 4.svg" alt="hr-line" id="desk-hr-line">
       <div class="placeholder">
         <img src="images/Vector 4.png" alt="hr-line" />
       </div>
       <div class="list3">
-        <div class="language">
-          <img src="images/Rectangle 55.png" alt="rectangle" />
-          <h2>Language</h2>
+        <div class="lang-list">
+          <div class="language">
+            <img src="images/Rectangle 55.png" alt="rectangle" />
+            <h2>Language</h2>
+          </div>
+          <ul>
+            <li>JavaScript</li>
+            <li>Ruby</li>
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
         </div>
-        <ul>
-          <li>JavaScript</li>
-          <li>Ruby</li>
-          <li>HTML</li>
-          <li>CSS</li>
-        </ul>
-        <div class="framework">
-          <img src="images/Rectangle 56.png" alt="rectangle" />
-          <h2>Frameworks</h2>
+        <div class="frame-list">
+          <div class="framework">
+            <img src="images/Rectangle 56.png" alt="rectangle" />
+            <h2>Frameworks</h2>
+          </div>
+          <ul>
+            <li>React.js</li>
+            <li>Ruby on Rails</li>
+            <li>RSpec</li>
+            <li>Capybara</li>
+          </ul>
         </div>
-        <ul>
-          <li>React.js</li>
-          <li>Ruby on Rails</li>
-          <li>RSpec</li>
-          <li>Capybara</li>
-        </ul>
-        <div class="skills">
-          <img src="images/Rectangle 57.png" alt="circle" />
-          <h2>Skills</h2>
+        <div class="skill-list">
+          <div class="skills">
+            <img src="images/Rectangle 57.png" alt="circle" />
+            <h2>Skills</h2>
+          </div>
+          <ul>
+            <li>Database Management</li>
+            <li>Version Control</li>
+            <li>CLI</li>
+            <li>API Design</li>
+            <li>Web Development</li>
+          </ul>
         </div>
-        <ul>
-          <li>Database Management</li>
-          <li>Version Control</li>
-          <li>CLI</li>
-          <li>API Design</li>
-          <li>Web Development</li>
-        </ul>
       </div>
     </section>
 
@@ -248,7 +280,7 @@
     </section>
    
     <footer class="footer">
-      <img src="images/seperationline.svg" alt="line">
+      <img src="images/seperationline.svg" class="seperation-line" alt="line">
       <ul class="footer-icons">
         <li class="Github">
           <a href="#">
