@@ -119,11 +119,11 @@ p {
 }
 
 #hr-line {
-  width: 327px;
+  width: 100%;
   height: 0;
   border: 1px solid #212121;
   align-items: center;
-  margin-left: 15px;
+  margin-left: 3%;
 }
 
 .main-div {
@@ -148,10 +148,10 @@ p {
 }
 
 #yoga-image {
-  width: 327px;
-  height: 237px;
+  width: 94%;
+  height: auto;
   margin-top: 56px;
-  margin-left: 15px;
+  margin-left: 3%;
 }
 
 .butm-div {
@@ -244,28 +244,26 @@ h2 {
 }
 
 .project_list {
-  background-color: white;
   display: grid;
   grid-template-columns: 90%;
-  grid-template-rows: repeat(6, auto);
-  border: 0;
-  gap: 24px;
+  grid-template-rows: repeat(6, 24.125em);
+  gap: 20px;
+  justify-content: center;
+  background-color: #fff;
+  width: 100%;
 }
 
 .project2 {
   display: flex;
-  flex-direction: column;
-  background-image: url(./images/Placeholder.png);
-  background-position: bottom;
-  background-repeat: no-repeat;
   justify-content: flex-end;
-  height: 386px;
-}
-
-.project2 > * {
-  margin-left: auto;
-  color: #fff;
-  padding: 5px;
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  text-align: left;
+  background-image: url("./images/Placeholder.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
 }
 
 .h3-show-desktop {
@@ -278,18 +276,18 @@ h2 {
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
+  max-width: 90%;
+  margin-left: 3%;
 }
 
 .project2 p {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 24px;
-}
-
-.bottom {
-  margin-bottom: 120px;
+  max-width: 80%;
+  margin-left: 3%;
 }
 
 .list2 {
@@ -298,10 +296,11 @@ h2 {
   align-items: center;
   gap: 0.75em;
   margin-top: -20px;
+  margin-left: 3%;
 }
 
 .project2 a {
-  width: 327px;
+  width: 100%;
   height: 48px;
   background: #ff6b00;
   font-family: "Inter", sans-serif;
@@ -314,8 +313,13 @@ h2 {
   white-space: nowrap;
   letter-spacing: 0.03em;
   margin-top: 14px;
-  margin-left: 24px;
   text-align: center;
+}
+
+.space {
+  height: 7.875em;
+  background-color: #fff;
+  width: 100%;
 }
 
 .about-me {
@@ -323,7 +327,7 @@ h2 {
   flex-direction: column;
 }
 
-.about-me h1 {
+.about-me h3 {
   font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
@@ -331,6 +335,8 @@ h2 {
   line-height: 88px;
   letter-spacing: 0.37px;
   color: #ff6b00;
+  margin-left: 6%;
+  margin-top: 18%;
 }
 
 .about-me p {

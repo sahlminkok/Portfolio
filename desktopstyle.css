@@ -73,6 +73,7 @@ body {
   justify-content: center;
   width: 100%;
   gap: 0;
+  margin-left: 2%;
 }
 
 .description {
@@ -106,31 +107,60 @@ body {
   margin-left: 10%;
 }
 
-.project-list {
-  height: 300vh;
+.project_list {
+  background-color: #fff;
+  width: 100%;
+  justify-content: center;
   display: grid;
-  grid-template-columns: repeat(3, 30%);
+  grid-template-columns: 32% 32% 32%;
+  grid-template-rows: auto;
+  grid-gap: 1% 0.5%;
+  padding-left: 7.5%;
 }
 
 .project2 {
-  display: flex;
+  width: 23.063em;
+  height: 27.188em;
+  padding-bottom: 5%;
+}
+
+.project2 a {
+  display: none;
+}
+
+#first-butn {
+  padding-bottom: 0;
+}
+
+#first-butn a {
+  display: block;
+}
+
+#first-butn h3,
+#first-butn p,
+#first-butn ul {
+  display: none;
 }
 
 .h3-hide-desktop {
   display: none;
 }
 
+.h3-show-desktop {
+  display: block;
+}
+
 #data-dashboard {
   background-image: url("images/Img\ Placeholder\ \(2\).svg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
 }
 
 #website-portfolio {
   background-image: url("images/Img\ Placeholder\ \(3\).svg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
 }
 
