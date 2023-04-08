@@ -35,6 +35,7 @@ body {
   width: 3.125em;
   height: auto;
   left: 0.75em;
+  transform: rotate(360deg);
 }
 
 .icon {
@@ -266,6 +267,10 @@ h2 {
   color: white;
 }
 
+.project2:hover {
+  transform: scale(1.1);
+}
+
 .h3-show-desktop {
   display: none;
 }
@@ -446,6 +451,10 @@ h2 {
   align-items: center;
   list-style: none;
   padding-bottom: 79px;
+}
+
+.contact-form form:hover {
+  transform: translate(5%);
 }
 
 #name,
