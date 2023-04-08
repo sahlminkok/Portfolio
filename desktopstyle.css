@@ -136,6 +136,16 @@ body {
   display: block;
 }
 
+.contact-form p {
+  max-width: 29%;
+  text-align: left;
+  padding-top: 0;
+}
+
+.list3 ul {
+  align-items: flex-start;
+}
+
 #first-butn h3,
 #first-butn p,
 #first-butn ul {
@@ -191,10 +201,6 @@ body {
   gap: 11em;
 }
 
-.list3 ul {
-  align-items: flex-start;
-}
-
 .lang-list,
 .frame-list,
 .skill-list {
@@ -214,12 +220,6 @@ body {
   padding-top: 130px;
   padding-left: 10%;
   justify-content: flex-start;
-}
-
-.contact-form p {
-  max-width: 29%;
-  text-align: left;
-  padding-top: 0;
 }
 
 #name,
