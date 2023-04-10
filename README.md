@@ -83,7 +83,7 @@ HTML, CSS and Linters
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Comming Soon
+- [Live Demo Link](https://sahlminkok.github.io/Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
