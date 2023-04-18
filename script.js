@@ -1,11 +1,15 @@
-let menu = document.querySelector("#menu");
-let mobileMenu = document.querySelector(".mobile-menu");
-let cancel = document.querySelector("#cancel");
+const mobile = document.querySelector('#menu');
+const mobileMenu = document.querySelector('.mobile-menu');
+const cancel = document.querySelector('#cancel');
 
-function display () {
+function display() {
   mobileMenu.classList.remove('hidden');
 }
 
-function hide () {
+mobile.addEventListener('click', display);
+
+function hide() {
   mobileMenu.classList.add('hidden');
 }
+
+cancel.addEventListener('click', hide);

@@ -50,7 +50,7 @@ body {
   width: 100%;
   padding: 5%;
   height: 100%;
-  background-color:  hsla(20, 3%, 23%, 1);
+  background-color: hsla(20, 3%, 23%, 1);
   position: fixed;
   z-index: 9998;
   display: block;
@@ -58,6 +58,11 @@ body {
 
 .hidden {
   display: none;
+}
+
+.placeholder img {
+  margin-top: 265px;
+  margin-left: 24px;
 }
 
 .mobile-menu a img {
@@ -419,11 +424,6 @@ h2 {
   height: 258.7px;
   left: 708.27px;
   margin-top: -40px;
-}
-
-.placeholder img {
-  margin-top: 265px;
-  margin-left: 24px;
 }
 
 .list3 {
