@@ -46,6 +46,43 @@ body {
   color: #ffff;
 }
 
+.mobile-menu {
+  width: 100%;
+  padding: 5%;
+  height: 100%;
+  background-color:  hsla(20, 3%, 23%, 1);
+  position: fixed;
+  z-index: 9998;
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+.mobile-menu a img {
+  float: right;
+  margin: 5%;
+}
+
+.m-menu {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff5e1;
+  text-decoration: none;
+  padding: 3%;
+  margin-top: 5%;
+}
+
+.marg {
+  margin-top: 15%;
+}
+
 h1 {
   margin: 120px 24px 24px 24px;
 }

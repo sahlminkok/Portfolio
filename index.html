@@ -23,22 +23,31 @@
     <link rel="stylesheet" type="text/css"
     media="screen and (min-width: 48em)"
     href="desktopstyle.css" />
+    <script src="script.js" defer></script>
   </head>
-  <body>
+  <body id="Porfolio">
+    <section class="mobile-menu hidden">
+      <a href="#" onclick="hide()">
+        <img src="images/Icon - Cancel.svg" id="cancel" alt="cancel">
+      </a>
+      <a href="#Portofolio" onclick="hide()" class="m-menu marg">Portfolio</a><hr>
+      <a href="#About" onclick="hide()" class="m-menu">About</a><hr>
+      <a href="#Contact" onclick="hide()" class="m-menu">Contact</a>
+    </section>
     <header class="navigation">
       <a href="#">
         <img src="images/cabsal.png" id="logo" alt="my logo" />
       </a>
       <nav class="desktop-navbar">
-        <a href="#">Portfolio</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
+        <a href="#Portfolio">Portfolio</a>
+        <a href="#About">About</a>
+        <a href="#Contact">Contact</a>
         <a href="#" class="mail">
           <img src="images/Icon - Mail.svg" alt="mail">
         </a>
       </nav>
       <nav class="menu">
-        <a href="#">
+        <a href="#" onclick="display()">
           <img src="images/Icon - Menu.png" id="menu" alt="Menu" />
         </a>
       </nav>
@@ -202,7 +211,7 @@
     <section class="space">
 
     </section>
-    <section class="about-me">
+    <section class="about-me" id="About">
       <div class="illustration-about-me">
         <h3>About me</h3>
         <p>
@@ -257,7 +266,7 @@
       </div>
     </section>
 
-    <section class="contact-form">
+    <section class="contact-form" id="Contact">
       <p>
         I'm always interested in hearing about new projects, so if you'd like to
         chat please get in touch.
