@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
 
 * {
   margin: 0;
@@ -23,7 +23,7 @@ body {
   justify-content: space-between;
   background: #3c3a39;
   padding: 0.625em;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .navigation a {
@@ -48,7 +48,7 @@ body {
 
 .mobile-menu {
   width: 100%;
-  padding: 5%;
+  padding: 4%;
   height: 100%;
   background-color: hsla(20, 3%, 23%, 1);
   position: fixed;
@@ -98,7 +98,7 @@ p {
 
 .Greetings {
   color: #ff6b00;
-  font-family: "Crete Round", serif;
+  font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 3.5rem;
@@ -108,7 +108,7 @@ p {
 
 .Description1 {
   color: #fff5e1;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 1.5rem;
@@ -119,7 +119,7 @@ p {
 
 .Description2 {
   color: #ffff;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1em;
@@ -140,7 +140,7 @@ p {
 
 .headline-tagline {
   height: 32.438em;
-  background-image: url("./images/Group.png");
+  background-image: url('./images/Group.png');
   background-position-x: right;
   background-position-y: bottom;
   background-repeat: no-repeat;
@@ -152,7 +152,7 @@ p {
 }
 
 #MyRecentWorks {
-  font-family: "Crete Round", serif;
+  font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 2.5rem;
@@ -204,7 +204,7 @@ p {
 }
 
 h2 {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -213,7 +213,7 @@ h2 {
 }
 
 .butm-div h2 {
-  font-family: "Crete Round", serif;
+  font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -221,7 +221,7 @@ h2 {
 }
 
 .butm-div p {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -240,7 +240,7 @@ h2 {
   list-style: none;
   background: rgba(255, 255, 255, 0.24);
   padding: 0.625em 0.75em;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -248,7 +248,7 @@ h2 {
 }
 
 .list3 li {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -258,7 +258,7 @@ h2 {
 
 .butm-div .list1 li {
   list-style: none;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -269,7 +269,7 @@ h2 {
 }
 
 .butm-div a {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -303,7 +303,7 @@ h2 {
   height: auto;
   flex-direction: column;
   text-align: left;
-  background-image: url("./images/Placeholder.png");
+  background-image: url('./images/Placeholder.png');
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -318,7 +318,7 @@ h2 {
 }
 
 .project2 h3 {
-  font-family: "Crete Round", serif;
+  font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -328,7 +328,7 @@ h2 {
 }
 
 .project2 p {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
@@ -350,7 +350,7 @@ h2 {
   width: 100%;
   height: 48px;
   background: #ff6b00;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -375,7 +375,7 @@ h2 {
 }
 
 .about-me h3 {
-  font-family: "Crete Round", serif;
+  font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
@@ -387,7 +387,7 @@ h2 {
 }
 
 .about-me p {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -397,7 +397,7 @@ h2 {
 
 .about-me a {
   padding: 0.75em;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -418,7 +418,7 @@ h2 {
 }
 
 .placeholder {
-  background-image: url("images/frame.png");
+  background-image: url('images/frame.png');
   background-repeat: no-repeat;
   background-position: right bottom;
   height: 258.7px;
