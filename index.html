@@ -25,14 +25,14 @@
     href="desktopstyle.css" />
     <script src="script.js" defer></script>
   </head>
-  <body id="Porfolio">
+  <body>
     <section class="mobile-menu hidden">
-      <a href="#" onclick="hide()">
+      <a href="#">
         <img src="images/Icon - Cancel.svg" id="cancel" alt="cancel">
       </a>
-      <a href="#Portofolio" class="m-menu marg">Portfolio</a><hr>
+      <a href="#Portofolio" onclick="hide()" class="m-menu marg">Portfolio</a><hr>
       <a href="#About" onclick="hide()" class="m-menu">About</a><hr>
-      <a href="#Contact" onclick="hide()" class="m-menu">Contact</a>
+      <a href="#Contact" onclick="hide()" class="m-menu">Contact</a><hr>
     </section>
     <header class="navigation">
       <a href="#">
@@ -52,7 +52,7 @@
         </a>
       </nav>
     </header>
-    <section class="headline-tagline">
+    <section class="headline-tagline" id="Porfolio">
       <div class="description">
         <h1 class="Greetings">
           Hey There. <br />
