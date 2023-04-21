@@ -107,6 +107,37 @@ body {
   margin-left: 10%;
 }
 
+.pop-up-container {
+  display: block;
+  width: 90%;
+  height: 100%;
+  margin: 5%;
+}
+
+.pop-up-image {
+  float: left;
+  width: 50%;
+  height: 55vh;
+}
+
+.text-and-buttons {
+  display: flex;
+  flex-direction: column;
+  padding-left: 3%;
+  justify-content: space-between;
+  height: 55vh;
+}
+
+.button-div {
+  justify-content: flex-start;
+  margin-top: 0;
+}
+
+.button-div button {
+  margin-right: 3%;
+  min-width: fit-content;
+}
+
 .project_list {
   background-color: #fff;
   width: 100%;
@@ -128,11 +159,13 @@ body {
   display: none;
 }
 
-#first-butn {
-  padding-bottom: 0;
+.project2:hover h3,
+.project2:hover p,
+.project2:hover ul {
+  display: none;
 }
 
-#first-butn a {
+.project2:hover a {
   display: block;
 }
 
@@ -144,12 +177,6 @@ body {
 
 .list3 ul {
   align-items: flex-start;
-}
-
-#first-butn h3,
-#first-butn p,
-#first-butn ul {
-  display: none;
 }
 
 .h3-hide-desktop {

@@ -23,14 +23,13 @@
     <link rel="stylesheet" type="text/css"
     media="screen and (min-width: 48em)"
     href="desktopstyle.css" />
-    <script src="script.js" defer></script>
   </head>
-  <body id="Porfolio">
+  <body >
     <section class="mobile-menu hidden">
-      <a href="#" onclick="hide()">
+      <a href="#">
         <img src="images/Icon - Cancel.svg" id="cancel" alt="cancel">
       </a>
-      <a href="#Portofolio" class="m-menu marg">Portfolio</a><hr>
+      <a href="#Portofolio" onclick="hide()" class="m-menu marg">Portfolio</a><hr>
       <a href="#About" onclick="hide()" class="m-menu">About</a><hr>
       <a href="#Contact" onclick="hide()" class="m-menu">Contact</a>
     </section>
@@ -52,7 +51,7 @@
         </a>
       </nav>
     </header>
-    <section class="headline-tagline">
+    <section class="headline-tagline" id="Porfolio">
       <div class="description">
         <h1 class="Greetings">
           Hey There. <br />
@@ -106,7 +105,7 @@
             alt="yoga image"
             id="yoga-image"
           />
-          <div class="project">
+          <div class="project" id="multi-post">
             <h2>Multi-Post Stories</h2>
             <p>
               A daily selection of privately personalized reads; no accounts or
@@ -119,7 +118,7 @@
               <li>Bootstrap</li>
               <li>Ruby</li>
             </ul>
-            <a href="#" class="button">See project</a>
+            <a href="#multi-post" class="button" onclick="detailsPopup('multiPost')">See project</a>
           </div>
         </div>
       </div>
@@ -136,7 +135,7 @@
           <li>Bootstrap</li>
           <li>Ruby</li>
         </ul>
-        <a href="#" class="button">See project</a>
+        <a href="#first-butn" class="button" onclick="detailsPopup('artPrinting')">See project</a>
       </div>
       <div class="project2" id="data-dashboard">
         <h3 class="h3-hide-desktop">Profesional Art <br />Printing Data</h3>
@@ -150,7 +149,7 @@
           <li>Bootstrap</li>
           <li>Ruby</li>
         </ul>
-        <a href="#" class="button">See project</a>
+        <a href="#data-dashboard" class="button" onclick="detailsPopup('dataDashboard')">See project</a>
       </div>
       <div class="project2" id="website-portfolio">
         <h3 class="h3-hide-desktop">Profesional Art <br />Printing Data</h3>
@@ -164,7 +163,7 @@
           <li>Bootstrap</li>
           <li>Ruby</li>
         </ul>
-        <a href="#" class="button">See project</a>
+        <a href="#website-portfolio" class="button" onclick="detailsPopup('websitePortfolio')">See project</a>
       </div>
       <div class="project2">
         <h3>Profesional Art <br />Printing Data</h3>
@@ -177,7 +176,7 @@
           <li>Bootstrap</li>
           <li>Ruby</li>
         </ul>
-        <a href="#" class="button">See project</a>
+        <a href=".project2" class="button" onclick="detailsPopup('artPrinting')">See project</a>
       </div>
       <div class="project2" id="data-dashboard">
         <h3 class="h3-hide-desktop">Profesional Art <br />Printing Data</h3>
@@ -191,7 +190,7 @@
           <li>Bootstrap</li>
           <li>Ruby</li>
         </ul>
-        <a href="#" class="button">See project</a>
+        <a href="#data-dashboard" class="button" onclick="detailsPopup('dataDashboard')">See project</a>
       </div>
       <div class="project2 bottom" id="website-portfolio">
         <h3 class="h3-hide-desktop">Profesional Art <br />Printing Data</h3>
@@ -205,7 +204,7 @@
           <li>Bootstrap</li>
           <li>Ruby</li>
         </ul>
-        <a href="#" class="button">See project</a>
+        <a href="#website-portfolio" class="button" onclick="detailsPopup('websitePortfolio')">See project</a>
       </div>
     </section>
     <section class="space">
@@ -219,7 +218,7 @@
           or website Look through some of my work and experience! If you like what
           you see and have a project you need coded, don’t hesitate to contact me.
         </p>
-        <a href="#" class="button">Get my resume</a>
+        <a href="#About" class="button">Get my resume</a>
       </div>
       <img src="images/Vector 4.svg" alt="hr-line" id="desk-hr-line">
       <div class="placeholder">
@@ -322,5 +321,6 @@
       </ul>
       <img class="longindicator" src="images/Shape.svg" alt="Indicator"/>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
