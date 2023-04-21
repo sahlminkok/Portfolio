@@ -19,15 +19,17 @@ const projects = {
     title: 'Multi-Post Stories',
     technologies: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
     image: './images/Snapshoot Portfolio.svg',
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    link: 'link_to_live_version.com'
+    paragraph:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    link: 'link_to_live_version.com',
   },
-  
+
   artPrinting: {
     title: 'Professional Art Printing Data',
     technologies: ['HTML', 'Bootstrap', 'Ruby on Rails'],
     image: './images/Snapshoot Portfolio.svg',
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    paragraph:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     link: 'link_to_live_version.com',
   },
 
@@ -35,7 +37,8 @@ const projects = {
     title: 'Data Dashboard Healthcare',
     technologies: ['HTML', 'Bootstrap', 'Ruby on Rails'],
     image: './images/Snapshoot Portfolio.svg',
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    paragraph:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     link: 'link_to_live_version.com',
   },
 
@@ -43,10 +46,11 @@ const projects = {
     title: 'Website Portfolio',
     technologies: ['HTML', 'Bootstrap', 'Ruby on Rails'],
     image: './images/Snapshoot Portfolio.svg',
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    paragraph:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     link: 'link_to_live_version.com',
-  },  
-}
+  },
+};
 
 function detailsPopup(projectId) {
   const container = document.querySelector('.project_list');
@@ -66,8 +70,8 @@ function detailsPopup(projectId) {
                           <img src='${projects[projectId].image}' alt='${projects[projectId].title}' class='pop-up-image'/>
                           <div><p class='para'>${projects[projectId].paragraph}</p>
                           <div>
-                          <a href='#'>See Live<img src='./images/Icon - Export.svg' alt='See live'></a>
-                          <a href='#'>See Source<img src='./images/see-project.svg' alt='See source'</a>
+                          <a class="button" href='#'>See Live<img src='./images/Icon - Export.svg' alt='See live'></a>
+                          <a class="button" href='#'>See Source<img src='./images/see-project.svg' alt='See source'</a>
                           </div>
                           </div>
                           </div>';`;
