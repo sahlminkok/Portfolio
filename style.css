@@ -514,6 +514,13 @@ h2 {
   border-bottom: 1px solid #dbd8d7;
 }
 
+#er-msg {
+  color: red;
+  font-size: 1.1rem;
+  font-family: 'Inter', sans-serif;
+  align-self: center;
+}
+
 #msg {
   background: #fbf8f7;
   height: 114px;
