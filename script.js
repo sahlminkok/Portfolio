@@ -103,8 +103,9 @@ form.addEventListener('submit', validateForm);
 
 // local storage
 
-const fullNameInput = form.name;
-const messageInput = form.message;
+const fullNameInput = form.user_name;
+const emailInput = form.user_email;
+const messageInput = form.user_message;
 
 const formObj = {
   fullName: '',
