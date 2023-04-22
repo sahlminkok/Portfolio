@@ -320,6 +320,7 @@ h2 {
   height: 93%;
   background-color: white;
   padding: 5%;
+  overflow: scroll;
 }
 
 .hdr {
@@ -335,7 +336,8 @@ h2 {
   display: flex;
   flex-direction: row;
   padding-top: 5vh;
-  justify-content: center;
+  justify-content: flex-start;
+  padding-left: 4%;
 }
 
 .para {
