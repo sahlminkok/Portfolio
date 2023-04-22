@@ -24,14 +24,14 @@
     media="screen and (min-width: 48em)"
     href="desktopstyle.css" />
   </head>
-  <body >
+  <body>
     <section class="mobile-menu hidden">
       <a href="#">
         <img src="images/Icon - Cancel.svg" id="cancel" alt="cancel">
       </a>
       <a href="#Portofolio" onclick="hide()" class="m-menu marg">Portfolio</a><hr>
       <a href="#About" onclick="hide()" class="m-menu">About</a><hr>
-      <a href="#Contact" onclick="hide()" class="m-menu">Contact</a>
+      <a href="#Contact" onclick="hide()" class="m-menu">Contact</a><hr>
     </section>
     <header class="navigation">
       <a href="#">
@@ -279,6 +279,7 @@
           placeholder="Email Address"
           required
         />
+        <span id="er-msg"></span>
         <textarea
           name="user_message"
           id="msg"

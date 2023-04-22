@@ -250,6 +250,10 @@ body {
   width: 684px;
 }
 
+#er-msg {
+  align-self: flex-start;
+}
+
 .contact-form button {
   align-self: flex-start;
 }
