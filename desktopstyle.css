@@ -154,16 +154,6 @@ body {
   display: none;
 }
 
-.project2:hover h3,
-.project2:hover p,
-.project2:hover ul {
-  display: none;
-}
-
-.project2:hover a {
-  display: block;
-}
-
 .contact-form p {
   max-width: 29%;
   text-align: left;
@@ -172,6 +162,16 @@ body {
 
 .list3 ul {
   align-items: flex-start;
+}
+
+.project2:hover h3,
+.project2:hover p,
+.project2:hover ul {
+  display: none;
+}
+
+.project2:hover a {
+  display: block;
 }
 
 .h3-hide-desktop {

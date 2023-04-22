@@ -87,4 +87,4 @@ const closePopUp = document.getElementById('closePopUp');
 closePopUp.onclick = closeDetailsPopup();
 
 const openPopUp = document.getElementById('popButton');
-openPopUp.onclick = showNewSection();
+openPopUp.onclick = detailsPopup();

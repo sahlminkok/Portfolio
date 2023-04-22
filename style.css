@@ -256,6 +256,16 @@ h2 {
   list-style: none;
 }
 
+.lis li {
+  list-style: none;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  margin-left: -38px;
+}
+
 .butm-div .list1 li {
   list-style: none;
   font-family: "Inter", sans-serif;
@@ -319,7 +329,6 @@ h2 {
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
-
 }
 
 .lis {
@@ -327,16 +336,6 @@ h2 {
   flex-direction: row;
   padding-top: 5vh;
   justify-content: center;
-}
-
-.lis li {
-  list-style: none;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-  margin-left: -38px;
 }
 
 .para {
