@@ -88,3 +88,15 @@ closePopUp.onclick = closeDetailsPopup();
 
 const openPopUp = document.getElementById('popButton');
 openPopUp.onclick = detailsPopup();
+
+const form = document.querySelector('form');
+
+function validateForm(event) {
+  const email = document.querySelector('#email');
+  const errorMessage = document.querySelector('#er-msg');
+  if (email.value !== email.value.toLowerCase()) {
+    event.preventDefault();
+    errorMessage.innerHTML = 'Please use only lowercase';
+  }
+}
+form.addEventListener('submit', validateForm);
