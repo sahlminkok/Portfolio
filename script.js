@@ -25,7 +25,7 @@ const projects = {
   },
 
   artPrinting: {
-    title: 'Professional Art Printing Data',
+    title: 'Professional Art',
     technologies: ['HTML', 'Bootstrap', 'Ruby on Rails'],
     image: './images/Snapshoot Portfolio.jpg',
     paragraph:
@@ -34,7 +34,7 @@ const projects = {
   },
 
   dataDashboard: {
-    title: 'Data Dashboard Healthcare',
+    title: 'Data Dashboard',
     technologies: ['HTML', 'Bootstrap', 'Ruby on Rails'],
     image: './images/Snapshoot Portfolio.jpg',
     paragraph:
