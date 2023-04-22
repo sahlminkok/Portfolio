@@ -110,8 +110,13 @@ body {
 .pop-up-container {
   display: block;
   width: 90%;
-  height: 100%;
-  margin: 5%;
+  height: 90%;
+  padding-top: 2%;
+}
+
+.lis {
+  justify-content: flex-start;
+  padding-left: 2%;
 }
 
 .pop-up-image {
@@ -126,16 +131,6 @@ body {
   padding-left: 3%;
   justify-content: space-between;
   height: 55vh;
-}
-
-.button-div {
-  justify-content: flex-start;
-  margin-top: 0;
-}
-
-.button-div button {
-  margin-right: 3%;
-  min-width: fit-content;
 }
 
 .project_list {
