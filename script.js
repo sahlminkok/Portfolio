@@ -100,3 +100,39 @@ function validateForm(event) {
   }
 }
 form.addEventListener('submit', validateForm);
+
+// local storage
+
+const fullNameInput = form.user_name;
+const emailInput = form.user_email;
+const messageInput = form.user_message;
+
+const formObj = {
+  fullName: '',
+  email: '',
+  message: '',
+};
+
+if (localStorage.formStorage) {
+  formObj.fullName = JSON.parse(localStorage.formStorage).fullName;
+  formObj.email = JSON.parse(localStorage.formStorage).email;
+  formObj.message = JSON.parse(localStorage.formStorage).message;
+  fullNameInput.value = formObj.fullName;
+  emailInput.value = formObj.email;
+  messageInput.value = formObj.message;
+}
+
+fullNameInput.addEventListener('input', () => {
+  formObj.fullName = fullNameInput.value;
+  localStorage.setItem('formStorage', JSON.stringify(formObj));
+});
+
+emailInput.addEventListener('input', () => {
+  formObj.email = emailInput.value;
+  localStorage.setItem('formStorage', JSON.stringify(formObj));
+});
+
+messageInput.addEventListener('input', () => {
+  formObj.message = messageInput.value;
+  localStorage.setItem('formStorage', JSON.stringify(formObj));
+});
