@@ -107,6 +107,32 @@ body {
   margin-left: 10%;
 }
 
+.pop-up-container {
+  display: block;
+  width: 90%;
+  height: 631px;
+  padding-top: 2%;
+}
+
+.lis {
+  justify-content: flex-start;
+  padding-left: 2%;
+}
+
+.pop-up-image {
+  float: left;
+  width: 50%;
+  height: 55vh;
+}
+
+.text-and-buttons {
+  display: flex;
+  flex-direction: column;
+  padding-left: 3%;
+  justify-content: space-between;
+  height: 55vh;
+}
+
 .project_list {
   background-color: #fff;
   width: 100%;
@@ -128,14 +154,6 @@ body {
   display: none;
 }
 
-#first-butn {
-  padding-bottom: 0;
-}
-
-#first-butn a {
-  display: block;
-}
-
 .contact-form p {
   max-width: 29%;
   text-align: left;
@@ -146,10 +164,14 @@ body {
   align-items: flex-start;
 }
 
-#first-butn h3,
-#first-butn p,
-#first-butn ul {
+.project2:hover h3,
+.project2:hover p,
+.project2:hover ul {
   display: none;
+}
+
+.project2:hover a {
+  display: block;
 }
 
 .h3-hide-desktop {
