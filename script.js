@@ -16,12 +16,13 @@ cancel.addEventListener('click', hide);
 
 const projects = {
   multiPost: {
-    title: 'Multi-Post Stories',
-    technologies: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
-    image: './images/Snapshoot Portfolio.jpg',
+    title: 'Ministry of Communications and Digital Economy',
+    technologies: ['CSS', 'HTML', 'JavaScript'],
+    image: './images/capstone-1-scrn-sht.jpg',
     paragraph:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    link: 'link_to_live_version.com',
+      'The Ministry of Communications and Digital Economy is a Ministry created in 2011 as Ministry of Communication Technology. It was created to foster a knowledge based economy and information society in Nigeria. The Ministry was created to facilitate ICT as a key tool in the transformation agenda for Nigeria in the areas of job creation, economic growth and transparency of governance, and this is a website that I\'ve established with two pages i.e Home and About page that showcase my proficiency in HTML and CSS.',
+    link: 'https://sahlminkok.github.io/Capstone-Project-1/',
+    source: 'https://github.com/sahlminkok/Capstone-Project-1',
   },
 
   artPrinting: {
@@ -70,14 +71,15 @@ function detailsPopup(projectId) {
                           <img src='${projects[projectId].image}' alt='${projects[projectId].title}' class='pop-up-image'/>
                           <div class='text-and-buttons'><p class='para'>${projects[projectId].paragraph}</p>
                           <div id='detail-buttons'>
-                          <a class="button detl-butn" href='#'>See Live<img src='./images/Icon - Export.svg' alt='See live'></a>
-                          <a class="button detl-butn" href='#'>See Source<img src='./images/see-project.svg' alt='See source'></a>
+                          <a class="button detl-butn" target='_blank' href='${projects[projectId].link}'>See Live<img src='./images/Icon - Export.svg' alt='See live'></a>
+                          <a class="button detl-butn" target='_blank' href='${projects[projectId].source}'>See Source<img src='./images/see-project.svg' alt='See source'></a>
                           </div>
                           </div>
                           </div>`;
   container.appendChild(details);
   details.style.display = 'flex';
 }
+
 function closeDetailsPopup() {
   const details = document.getElementById('pop-up-window');
   details.parentNode.removeChild(details);

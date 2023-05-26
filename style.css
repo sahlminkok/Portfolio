@@ -330,6 +330,8 @@ h2 {
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
+  display: flex;
+  justify-content: space-between;
 }
 
 .lis {
@@ -381,6 +383,7 @@ h2 {
   float: right;
   border: none;
   background-color: white;
+  cursor: pointer;
 }
 
 .new-section-technology {

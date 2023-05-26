@@ -97,7 +97,7 @@ body {
   display: flex;
   flex-direction: column;
   margin-top: 56px;
-  width: 28em;
+  width: 35em;
   margin-right: 5%;
 }
 
@@ -117,6 +117,10 @@ body {
 .lis {
   justify-content: flex-start;
   padding-left: 2%;
+}
+
+.para {
+  padding-top: 0;
 }
 
 .pop-up-image {
