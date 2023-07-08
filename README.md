@@ -12,7 +12,7 @@
 
 <!-- TABLE OF CONTENTS -->
 
-# 📗 Table of Contents
+#📗 Table of Contents
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
@@ -35,7 +35,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio <a name="about-project"></a>
+#📖 Portfolio <a name="about-project"></a>
 
 **[Portfolio]** is a my Portofolio Website that I have created but starting with mobile version using HTML and CSS.
 
