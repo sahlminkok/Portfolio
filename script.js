@@ -30,9 +30,9 @@ const projects = {
     technologies: ['HTML', 'Sass', 'Ruby on Rails'],
     image: './images/smartbudget.jpg',
     paragraph:
-      "Smart Budget is a cutting-edge mobile web application designed to revolutionize your budget management. Take control of your finances with ease, track expenses, categorize transactions, and gain valuable insights into your spending habits. Empower yourself to make informed financial decisions and embark on a journey towards financial success. Get smart with SmartBudget today! 💡💸",
+      'Smart Budget is a cutting-edge mobile web application designed to revolutionize your budget management. Take control of your finances with ease, track expenses, categorize transactions, and gain valuable insights into your spending habits. Empower yourself to make informed financial decisions and embark on a journey towards financial success. Get smart with SmartBudget today! 💡💸',
     link: 'https://smartbudget-mhwp.onrender.com/',
-    source: 'https://github.com/sahlminkok/smart-budget'
+    source: 'https://github.com/sahlminkok/smart-budget',
   },
 
   dataDashboard: {
