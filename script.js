@@ -26,12 +26,13 @@ const projects = {
   },
 
   artPrinting: {
-    title: 'Professional Art',
-    technologies: ['HTML', 'Bootstrap', 'Ruby on Rails'],
-    image: './images/Snapshoot Portfolio.jpg',
+    title: 'Smart Budget',
+    technologies: ['HTML', 'Sass', 'Ruby on Rails'],
+    image: './images/smartbudget.jpg',
     paragraph:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    link: 'link_to_live_version.com',
+      "Smart Budget is a cutting-edge mobile web application designed to revolutionize your budget management. Take control of your finances with ease, track expenses, categorize transactions, and gain valuable insights into your spending habits. Empower yourself to make informed financial decisions and embark on a journey towards financial success. Get smart with SmartBudget today! 💡💸",
+    link: 'https://smartbudget-mhwp.onrender.com/',
+    source: 'https://github.com/sahlminkok/smart-budget'
   },
 
   dataDashboard: {
