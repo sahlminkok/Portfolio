@@ -320,7 +320,7 @@ h2 {
   height: 93%;
   background-color: white;
   padding: 5%;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 .hdr {
