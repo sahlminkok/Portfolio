@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
 
 * {
   margin: 0;
@@ -23,7 +23,7 @@ body {
   justify-content: space-between;
   background: #3c3a39;
   padding: 0.625em;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .navigation a {
@@ -73,7 +73,7 @@ body {
 .m-menu {
   display: flex;
   flex-direction: column;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -98,7 +98,7 @@ p {
 
 .Greetings {
   color: #ff6b00;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 3.5rem;
@@ -108,7 +108,7 @@ p {
 
 .Description1 {
   color: #fff5e1;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 1.5rem;
@@ -119,7 +119,7 @@ p {
 
 .Description2 {
   color: #ffff;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1em;
@@ -140,7 +140,7 @@ p {
 
 .headline-tagline {
   height: 32.438em;
-  background-image: url('./images/Group.png');
+  background-image: url("./images/Group.png");
   background-position-x: right;
   background-position-y: bottom;
   background-repeat: no-repeat;
@@ -152,7 +152,7 @@ p {
 }
 
 #MyRecentWorks {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -204,7 +204,7 @@ p {
 }
 
 h2 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -213,7 +213,7 @@ h2 {
 }
 
 .butm-div h2 {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -221,7 +221,7 @@ h2 {
 }
 
 .butm-div p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -240,7 +240,7 @@ h2 {
   list-style: none;
   background: rgba(255, 255, 255, 0.24);
   padding: 0.625em 0.75em;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -248,7 +248,7 @@ h2 {
 }
 
 .list3 li {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -258,7 +258,7 @@ h2 {
 
 .lis li {
   list-style: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -268,7 +268,7 @@ h2 {
 
 .butm-div .list1 li {
   list-style: none;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -279,7 +279,7 @@ h2 {
 }
 
 .butm-div a {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -320,11 +320,11 @@ h2 {
   height: 93%;
   background-color: white;
   padding: 5%;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 .hdr {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -343,7 +343,7 @@ h2 {
 }
 
 .para {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
@@ -370,7 +370,7 @@ h2 {
   gap: 12px;
   width: 158px;
   height: 48px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 1rem;
@@ -415,14 +415,15 @@ h2 {
   height: auto;
   flex-direction: column;
   text-align: left;
-  background-image: url('./images/Placeholder.png');
+  background-image: url("./images/Placeholder.png");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  transition: all 0.5s ease-in;
 }
 
 .project2:hover {
-  transform: scale(1.1);
+  transform: scale(1.01);
 }
 
 .h3-show-desktop {
@@ -430,7 +431,7 @@ h2 {
 }
 
 .project2 h3 {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -440,13 +441,17 @@ h2 {
 }
 
 .project2 p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
   line-height: 24px;
   max-width: 80%;
   margin-left: 3%;
+}
+
+#first-butn {
+  background-image: url("./images/smartbudget1.jpg");
 }
 
 .list2 {
@@ -462,7 +467,7 @@ h2 {
   width: 100%;
   height: 48px;
   background: #ff6b00;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -487,7 +492,7 @@ h2 {
 }
 
 .about-me h3 {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
@@ -499,7 +504,7 @@ h2 {
 }
 
 .about-me p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -509,7 +514,7 @@ h2 {
 
 .about-me a {
   padding: 0.75em;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -530,7 +535,7 @@ h2 {
 }
 
 .placeholder {
-  background-image: url('images/frame.png');
+  background-image: url("images/frame.png");
   background-repeat: no-repeat;
   background-position: right bottom;
   height: 258.7px;
@@ -582,7 +587,7 @@ h2 {
 }
 
 .contact-form p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -600,16 +605,17 @@ h2 {
   align-items: center;
   list-style: none;
   padding-bottom: 79px;
+  transition: all 0.5s ease-in-out;
 }
 
 .contact-form form:hover {
-  transform: translate(5%);
+  transform: scale(0.95);
 }
 
 #name,
 #email,
 #msg {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -629,7 +635,7 @@ h2 {
 #er-msg {
   color: red;
   font-size: 1.1rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   align-self: center;
 }
 
@@ -645,7 +651,7 @@ h2 {
   height: 48px;
   background: #ff6b00;
   border: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
